@@ -1,27 +1,3 @@
-"use client";
-
-import { useState } from "react";
-
-// import { api } from "~/trpc/react";
-
 export function LatestPost() {
-	// The post router was removed, commenting out to fix build errors.
-	/*
-	const [latestPost] = api.post.getLatest.useSuspenseQuery();
-
-	const utils = api.useUtils();
-	const [name, setName] = useState("");
-	const createPost = api.post.create.useMutation({
-		onSuccess: async () => {
-			await utils.post.invalidate();
-			setName("");
-		},
-	});
-	*/
-
-	return (
-		<div className="w-full max-w-xs">
-			<p>Post component disabled.</p>
-		</div>
-	);
+	return null;
 }
